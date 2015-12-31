@@ -1,5 +1,7 @@
 #! /usr/bin/env python3.4
 
+from random import random
+
 class Create_Password:
 
    __lowercase = 'abcdefghijklmnopqrstuvwxyz'
@@ -30,6 +32,8 @@ class Create_Password:
 
    def random_words(self, length):
       #Code to create a password of size length using random words from wordslist
+      #Select a list of random sizes
+      #Select a random word for each size
       return ''
 
 
