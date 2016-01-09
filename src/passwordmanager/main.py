@@ -3,7 +3,6 @@
 from Account_Information import *
 from Create_Password import *
 
-
 def main():
    title('* Password Manager *')
  
@@ -26,8 +25,6 @@ def title(title):
    print
 
 def option_selection():
-   create_password = Create_Password(True, False, False, False)
-   
    choice = input('Select an option:\n\n' + 
                   '\t(1)Enter it yourself\n' + 
                   '\t(2)Generate by random charactors\n' +
@@ -36,7 +33,11 @@ def option_selection():
    return choice
 
 def get_password(choice):   
+   create_password = Create_Password(True, False, False, False)
+   password = ''  
+ 
    print
+  
    if choice == 1:
       password = raw_input('Enter in password: ')
    elif choice == 2:
@@ -47,10 +48,14 @@ def get_password(choice):
       password = create_password.random_charactors(length)
    else:
       print('\nError: Invalid option \nPlease try again\n')
-      option_selection()
-   
+      password = retry()
+
    return password
 
+def retry():
+   choice = option_selection()
+   return get_password(choice)
+   
 
 if __name__=='__main__':
    main()
