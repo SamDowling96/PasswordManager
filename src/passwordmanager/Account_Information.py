@@ -3,16 +3,41 @@
 
 class Account_Information:
 
-   __password = ''
-   __account = ''
-   __description = ''
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+  __password = ''
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+  __account = ''
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+  __description = ''
 
-   def __init__(self, password, account, description):
-      self.__password = password
-      self.__account = account
-      self.__description = description
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+  def __init__(self, password, account, description):
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+     self.__password = password
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+     self.__account = account
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+     self.__description = description
 
-   def to_string(self):
-      return 'Password: ' + self.__password + '\nAccount: ' + self.__account + '\nDescription: ' + self.__description
-
-
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+  def to_string(self):
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+# MEMES!!!!!!!!!!
+     return 'Password: ' + self.__password + '\nAccount: ' + self.__account + '\nDescription: ' + self.__description
