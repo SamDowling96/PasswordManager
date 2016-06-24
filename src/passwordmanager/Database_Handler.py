@@ -14,7 +14,11 @@ class Database_Handler:
 	__type_int = 'INTEGER'
 	
 	def __init__(self):
-		conn = sqlite3.connect(sqlite_file)
+		self.__sqlite_file = file_location
+		self.__table_name = table_name
+		
+	def open_connection(self)
+		conn = sqlite3.connect(self.sqlite_file)
 		c = conn.cursor()
 		
 	def close_connection(self):
